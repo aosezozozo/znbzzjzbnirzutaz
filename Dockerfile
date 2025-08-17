@@ -27,9 +27,6 @@ WORKDIR ${PLUGINS_DIR}
 # d. Run 'git clone' from within the plugins directory.
 # This will create the 'cloud-saves' sub-directory automatically.
 RUN git clone https://github.com/fuwei99/cloud-saves
-RUN git clone https://github.com/N0VI028/JS-Slash-Runner
-RUN git clone https://github.com/muyoou/st-memory-enhancement
-RUN git clone https://github.com/Wx-2025/ST-Amily2-Chat-Optimisation
 
 # e. Switch the working directory into the newly created plugin folder.
 WORKDIR ${PLUGINS_DIR}/cloud-saves
