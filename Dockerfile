@@ -1,5 +1,5 @@
 # Base image
-FROM ghcr.io/aosezozozo/uawptjkwacfxxnbv:main
+FROM ghcr.io/aosezozozo/uawptjkwacfxxnbv:latest
 
 # Switch to root user to install tools and prepare the filesystem
 USER root
